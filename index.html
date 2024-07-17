@@ -8,5 +8,21 @@
 </head>
 <body>
     <script src="java/funcion.js"> </script>
+    <form>
+        <h1> Conversor de Temperatura </h1>
+        <input type="number" id="textBox" value="0">
+        <br>
+        <br>
+
+
+        <input type="radio" id="aFahrenheit" name="unidad">
+        <label for="aFahrenheit"> Celsius a Fahrenheit </label> <br>
+        <br>
+        <input type="radio" id="aCelsius" name="unidad">
+        <label for="aCelsius"> Fahrenheit a Celsius </label> <br>
+
+        <button type="button" onclick="convertir()"> Enviar </button>
+        <p id="resultado"> Seleccione una unidad </p>
+    </form>
 </body>
 </html>
