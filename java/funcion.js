@@ -18,6 +18,6 @@ function convertir(){
         result.textContent = temp.toFixed(1) + "°C";
     }
     else{
-
+        result.textContent = "Ingrese temperatura";
     }
 }
