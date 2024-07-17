@@ -40,3 +40,12 @@ button{
     border-radius: 5px;
     cursor: pointer;
 }
+
+button:hover{
+    background-color: hsl(8, 100%, 50%);
+}
+
+#resultado{
+    font-size: 1.7em;
+    font-weight: bold;
+}
