@@ -17,3 +17,11 @@ form{
     box-shadow: 5px 5px 15px hsl(rgb(37, 10, 10));
 }
 
+#textBox{
+    width: 50%;
+    text-align: center;
+    font-size: 2en;
+    border: 2px solid rgba(0, 0, 0, 0.521);
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
